@@ -1,0 +1,87 @@
+{
+  "name": "ocma-enhanced-frontend",
+  "version": "2.0.0",
+  "description": "Enhanced OCMA Platform Frontend - Complete content management automation system",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint src/",
+    "lint:fix": "eslint src/ --fix",
+    "format": "prettier --write src/**/*.{js,jsx,ts,tsx,json,css,md}"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "antd": "^5.0.0",
+    "@ant-design/icons": "^5.0.0",
+    "moment": "^2.29.4",
+    "axios": "^1.4.0",
+    "react-router-dom": "^6.8.0",
+    "react-query": "^3.39.0",
+    "recharts": "^2.5.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-color": "^2.19.3",
+    "fabric": "^5.2.4",
+    "konva": "^9.0.0",
+    "react-konva": "^18.2.10",
+    "lodash": "^4.17.21",
+    "classnames": "^2.3.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.32.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "^2.8.0",
+    "web-vitals": "^2.1.4"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "warn"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:3001",
+  "homepage": ".",
+  "keywords": [
+    "ocma",
+    "content-management",
+    "social-media",
+    "marketing-automation",
+    "ai-content",
+    "strategy-based",
+    "visual-content"
+  ],
+  "author": "OCMA Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/ocma-enhanced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/ocma-enhanced/issues"
+  }
+}
